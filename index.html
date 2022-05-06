@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/eddd4c47ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Trouve le code</title>
+</head>
+<body>
+ <div class="wrapper">
+    <main >
+    <div class="calculator__screen-container">
+        <input type="text" class="calculator__screen" disabled>
+    
+    </div>
+    <div id="dial">        
+    </div>
+</main>   
+    <aside>
+        <div class="tooltip">
+            <i class="fa-solid fa-circle-info"></i>
+            <div class="tooltiptext">
+                <div class="color-badge red"></div> <div class="help">Nombre absent dans le code</div> 
+                <div class="color-badge yellow"></div> <div class="help">Nombre à la mauvaise place</div> 
+                <div class="color-badge green"></div> <div class="help">Nombre à la bonne place</div>
+            </div>
+ 
+        </div>
+        <div class="guess-container">
+        </div>
+    </aside>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
